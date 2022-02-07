@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Gun5n2.unity
+    guid: 20ec5ac0b188b044fb9f82da91dcb137
+  - enabled: 1
+    path: Assets/Scenes/Gun5n2SCENE2.unity
+    guid: 763893cb1e74b1444825e446f439d572
+  - enabled: 1
+    path: Assets/Scenes/Gun5n2SCENE3.unity
+    guid: c7ea6e7a4f2012042a4826de78cc6ebc
+  m_configObjects: {}
