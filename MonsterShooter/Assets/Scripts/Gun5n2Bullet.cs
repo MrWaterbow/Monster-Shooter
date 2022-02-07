@@ -31,7 +31,6 @@ public class Gun5n2Bullet : MonoBehaviour
         {
             for (int i = 0; i < 50; i = i + 1)
             {
-                Debug.Log("Все работвет");
                 GameObject monstersClone = Instantiate(monstersCol, monstersCol.transform.position, monstersCol.transform.rotation);
                 Destroy(monstersClone.GetComponent<Gun5n2Monsters>());
                 monstersClone.GetComponent<Rigidbody2D>().isKinematic = false;

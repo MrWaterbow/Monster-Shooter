@@ -31,7 +31,6 @@ public class Gun5n2PanelControl : MonoBehaviour
         {
             panelControl.anchoredPosition = new Vector3(0, i, 0);
             yield return new WaitForSeconds(Time.deltaTime);
-            Debug.Log(i);
         }
         menuButton.GetComponent<Button>().interactable = false;
     }
@@ -42,7 +41,6 @@ public class Gun5n2PanelControl : MonoBehaviour
         {
             panelControl.anchoredPosition = new Vector3(0, i, 0);
             yield return new WaitForSeconds(Time.deltaTime);
-            Debug.Log(i);
         }
         panelControl.gameObject.SetActive(false);
         menuButton.GetComponent<Button>().interactable = true;
